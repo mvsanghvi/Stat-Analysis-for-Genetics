@@ -10,7 +10,7 @@ Pt= 1-Pc
 #Estimate genotype frequencies
 Pcc= (Pc)**2
 print("Pcc=", Pcc)
-Ptt= Pt**2
+Ptt= (Pt)**2
 print("Ptt=", Ptt)
-Pct= 2 *(Pcc * Ptt)
+Pct= 2 *(Pc * Pt)
 print ("Pct=", Pct)
