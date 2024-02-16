@@ -11,3 +11,5 @@ Pcc= (Pc)**2
 Ptt= (Pt)**2
 Pct= 2 *(Pc * Pt)
 #Observed frequencies vs expectations
+from scipy.stats import chisquare
+print(chisquare([]))
